@@ -8,7 +8,7 @@ export default function Experience() {
 
     useEffect(() => {
         const getExperience = async () => {
-            const response = await fetch(`https://localhost:5173/experiences/api/list`);
+            const response = await fetch(`${API}/experiences/api/list`);
                 const data = await response.json();
                 setExperience(data);
             
