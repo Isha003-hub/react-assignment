@@ -1,0 +1,57 @@
+#projects {
+    background: #f0f0f0;
+    padding: 60px 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .project-summary {
+    margin-bottom: 10px;
+  }
+  
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .tech-badge {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .project-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .status.done {
+    color: green;
+  }
+  
+  .status.in-progress {
+    color: orange;
+  }
