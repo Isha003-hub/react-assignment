@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: [  "http://localhost:5173"],
+    origin: [  "http://localhost:5173","https://react-assignment-ishas-projects-1e8fb4df.vercel.app/","https://fullstackassignment1-iga3.onrender.com/"],
     credentials: true
   }));
   
