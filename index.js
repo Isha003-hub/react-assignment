@@ -2,21 +2,20 @@ const express = require("express");
 const path = require("path");
 const sessions = require("express-session");
 const dotenv = require("dotenv");
-const cors = require("cors");
-
 dotenv.config();
+const cors = require("cors");
 
 const app = express();
 
 app.use(cors({
-    origin: [  "http://localhost:5173","https://react-assignment-ishas-projects-1e8fb4df.vercel.app/","https://fullstackassignment1-iga3.onrender.com/"],
+    origin: [  "http://localhost:5173","https://react-assignment-nine-ashen.vercel.app","https://fullstackassignment1-iga3.onrender.com/"],
     credentials: true
   }));
   
 
 const port = process.env.PORT || "8888";
 
-app.set("view engine","pug");
+/*app.set("view engine","pug");*/
 
 
 app.use(express.urlencoded({extended : true}));
